@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=1
+ro.zygote=zygote32
+ro.arch=x86
+ro.rtc_local_time=1
+ro.dalvik.vm.native.bridge=libnb.so
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+persist.sys.usb.config=adb
